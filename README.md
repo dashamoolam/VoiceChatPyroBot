@@ -33,7 +33,7 @@ If you face an error, want to discuss this project or get support for it, join [
 
 #### Configuring
 
-Copy `sample_config.py` to `config.py` and make it use your credentials:
+Copy `config/sample_config.py` to `config/config.py` and make it use your credentials (you can also give those as an arg when running bot.py):
 
 `API_ID` int: your api id from [my.telegram.org](https://my.telegram.org)
 
@@ -124,7 +124,7 @@ These are apt package manager instructions but you can install the required pack
 
 12. Open a remote desktop client and login to your user.
 
-13. You should see the Telegram GUI, just login, join a voice chat and set `MySink.monitor` as your microphone.
+13. You should see the Telegram GUI, just login, join a voice chat and set `VoiceChatPyroBot` as your microphone.
 
 14. Done, you can now start sending commands to your bot and it'll stream in the voice chat.
 
@@ -161,7 +161,7 @@ These are apt package manager instructions but you can install the required pack
 
 7. Detattach from the screen by pressing CTRL+A then CTRL+D.
 
-8. Open Telegram, join a voice chat and set `MySink.monitor` as your microphone.
+8. Open Telegram, join a voice chat and set `VoiceChatPyroBot` as your microphone.
 
 9. Done, you can now start sending commands to your bot and it'll stream in the voice chat.
 
